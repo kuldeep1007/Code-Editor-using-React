@@ -1,11 +1,10 @@
-# Getting Started with Create React App+
-
-##This is the demo of Code Editor
+## This is the demo of Code Editor
 
 https://user-images.githubusercontent.com/79706095/126040738-913eb9bc-9af8-4064-8ec0-7fa9cd600c8f.mp4
 
 
 
+# Getting Started with Create React App+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
