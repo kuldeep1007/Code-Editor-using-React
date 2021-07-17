@@ -14,27 +14,13 @@ function Editor({ language, value, onCodeChange }) {
         onCodeChange(value);
     }
 
-    const share = e =>{
-        
-        e.preventDefault();
-        
-        const codeToSend = { title: value };
-        Axios.post('https://reqres.in/api/values', codeToSend) // The api can be set as per preference.
-            .then((response) => {
-                console.log(response);
-                alert("Your Code has been successfully sent.")
-            })
-            .catch(error => {
-                alert(error.message);
-            });
-    };
 
 
     return (
         <div className="editor">
             <div className="editor__heading">
-                <h2>Code Editor</h2>
-                <button onClick={share}>Share</button>
+            
+
             </div> 
             <Controlled
                 onBeforeChange = {handleCodeChange}
